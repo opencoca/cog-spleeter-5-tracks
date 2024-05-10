@@ -12,8 +12,8 @@ class ModelOutput(BaseModel):
 class Predictor(BasePredictor):
 
     def setup(self):
-        """Loads Spleeter 2 stems model into memory from disk"""
-        self.separator = Separator('spleeter:2stems')
+        """Loads Spleeter 5 stems model into memory from disk"""
+        self.separator = Separator('spleeter:5stems')
         self.audio_loader = AudioAdapter.default()
 
     def predict(
@@ -26,6 +26,7 @@ class Predictor(BasePredictor):
 
         out_path = Path(tempfile.mkdtemp())
 
+        # Need to add addional outputs
         out_path_vocals = out_path / "vocals.wav"
         out_path_accompaniment = out_path / "accompaniment.wav"
 
