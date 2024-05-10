@@ -1,6 +1,6 @@
 # Spleeter Cog model
 
-[![Replicate](https://replicate.com/soykertje/spleeter/badge)](https://replicate.com/soykertje/spleeter)
+[![Replicate](https://replicate.com/opencoca/cog-spleeter-5-tracks/badge)](https://replicate.com/opencoca/cog-spleeter-5-tracks)
 
 This is an implementation of [Spleeter](https://github.com/deezer/spleeter) as a Cog model. [Cog packages machine learning models as standard containers.](https://github.com/replicate/cog)
 
